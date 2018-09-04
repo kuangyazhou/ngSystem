@@ -6,7 +6,7 @@ import { CoreModule } from "./core/core.module";
 
 import { AppComponent } from "./app.component";
 
-import { MatSidenavModule } from "@angular/material";
+import { MatSidenavModule, MatButtonModule } from "@angular/material";
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +14,7 @@ import { MatSidenavModule } from "@angular/material";
     BrowserModule,
     CoreModule,
     MatSidenavModule,
+    MatButtonModule,
     BrowserAnimationsModule
   ],
   providers: [],

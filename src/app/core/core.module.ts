@@ -4,13 +4,14 @@ import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { SidebarComponent } from "./sidebar/sidebar.component";
 
-import {
-  MatToolbarModule,
-  MatButtonModule,
-  MatIconModule
-} from "@angular/material";
+import { SharedModule } from "../shared/shared.module";
+// import {
+//   MatToolbarModule,
+//   MatButtonModule,
+//   MatIconModule
+// } from "@angular/material";
 @NgModule({
-  imports: [CommonModule, MatToolbarModule, MatButtonModule, MatIconModule],
+  imports: [CommonModule, SharedModule],
   declarations: [HeaderComponent, FooterComponent, SidebarComponent],
   exports: [HeaderComponent, FooterComponent, SidebarComponent]
 })

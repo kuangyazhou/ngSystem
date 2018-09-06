@@ -9,11 +9,14 @@ import { AppComponent } from "./app.component";
 import { MatSidenavModule, MatButtonModule } from "@angular/material";
 import { AppRoutingModule } from "./app-routing.module";
 
+import { LoginModule } from "./login/login.module";
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     CoreModule,
+    LoginModule,
     MatSidenavModule,
     MatButtonModule,
     BrowserAnimationsModule,

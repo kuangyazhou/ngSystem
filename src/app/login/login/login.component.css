@@ -1,0 +1,17 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  width: 40em;
+  margin: 0.5em;
+  /* flex: 0 0 20em; */
+}
+
+.text-right {
+  margin: 10px;
+  /* justify-content: flex-end; */
+  text-align: end;
+}

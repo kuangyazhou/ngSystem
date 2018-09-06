@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+/* material UI的主要颜色 另外可以选择备选颜色，共同组成UI的配色 */
+
+/* 明暗 由深浅亮度调节 常见的适应白天黑夜模式*/
+
+/* 叠加 */
+
+/* 共同组成material的颜色风格 */
+
 html,
 body,
 app-root,

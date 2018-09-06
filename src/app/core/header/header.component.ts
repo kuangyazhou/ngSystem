@@ -11,8 +11,13 @@ export class HeaderComponent implements OnInit {
   @Output()
   toggle = new EventEmitter<void>();
 
-  ngOnInit() {}
+  @Output()
+  themeChange = new EventEmitter<boolean>();
 
+  ngOnInit() {}
+  onChange(checked: boolean) {
+    this.themeChange.emit();
+  }
   openSidebar(): void {
     // console.log("fuck the king！！！");
     this.toggle.emit();

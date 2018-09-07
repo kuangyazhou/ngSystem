@@ -1,0 +1,11 @@
+<!-- <p>
+  project-list works!
+</p> -->
+
+<app-project-item *ngFor="let item of projects" [item]="item">
+
+</app-project-item>
+
+<button type="button" mat-fab (click)="openNewProjectDialog()">
+  add icon
+</button>

@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {}
   onChange(checked: boolean) {
-    this.themeChange.emit();
+    this.themeChange.emit(checked);
   }
   openSidebar(): void {
     // console.log("fuck the king！！！");

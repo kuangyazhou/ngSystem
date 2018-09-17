@@ -1,11 +1,13 @@
 <!-- <p>
   project-list works!
 </p> -->
+<div style="display: flex">
 
-<app-project-item *ngFor="let item of projects" [item]="item">
+  <app-project-item *ngFor="let item of projects" [item]="item" class="card containter">
 
-</app-project-item>
+  </app-project-item>
 
-<button type="button" mat-fab (click)="openNewProjectDialog()">
-  add icon
-</button>
+  <button type="button" class="fab-button" mat-fab (click)="openNewProjectDialog()">
+    add icon
+  </button>
+</div>

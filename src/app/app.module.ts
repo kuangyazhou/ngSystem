@@ -9,6 +9,7 @@ import { AppComponent } from "./app.component";
 import { MatSidenavModule, MatButtonModule } from "@angular/material";
 import { AppRoutingModule } from "./app-routing.module";
 
+import { ProjectModule } from "./project/project.module";
 import { LoginModule } from "./login/login.module";
 
 @NgModule({
@@ -20,7 +21,8 @@ import { LoginModule } from "./login/login.module";
     MatSidenavModule,
     MatButtonModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProjectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
